@@ -1,0 +1,67 @@
+.email-app{
+    display: flex;
+}
+
+.email-ctgs{
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ctg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.ctg:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.email-ctgs div.active-ctg{
+    background-color: rgba(255,0,0,0.2);
+}
+.email-ctgs div i{
+    padding-right: 5px;
+}
+
+.email-ctgs div.compose-btn{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: fit-content;
+    padding: 8px;
+    height: 40px;
+    border: 2px lightslategray solid ;
+    align-self: center; 
+}
+.email-ctgs div.compose-btn:hover{
+    background-color: white;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.email-app main{
+    flex-grow: 1;
+}
+.no-emails{
+    text-align: center;
+}
+.email-filter{
+    display: flex;
+    padding: 10px;
+}
+.email-filter div{
+   padding-right: 20px;
+}
+.email-filter select{
+    margin-left: 10px;
+}
+
+.email-ctgs{
+    min-height: 100vh;
+    height: 100%;
+    background-color: rgb(223, 255, 223);
+}

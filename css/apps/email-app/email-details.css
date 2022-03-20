@@ -1,0 +1,9 @@
+.email-details{
+    padding: 2rem;
+}
+.email-details h1{
+    text-transform: capitalize;
+}
+.email-details h5{
+    font-size: 16px;
+}
